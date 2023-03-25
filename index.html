@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="icon" type="image/x-icon" href="image/svg/favicon.ico">
+    <title>Мои Front-end навыки</title>
+</head>
+<body>
+    <section>
+        <section class="fixed-width-section block-section-1">
+            <header class="section-1">
+                <div class="section-1-logo">
+                    <span class="logo"></span></br></br>
+                    <h4 class="to-up" onclick="scrollup()">Наверх</h4>
+                </div>
+                <nav class="section-1-nav">
+                    <div class="section-1-header-menu">
+                        <span class="section-1-header-menu-text">Меню</span>
+                        <div class="section-1-header-close" onclick="menu_close()">
+                            <span class="section-1-header-close-line-1"></span>
+                            <span class="section-1-header-close-line-2"></span>
+                        </div>
+                    </div>
+                    <ul class="section-1-list">
+                        <li class="section-1-list-item">
+                            <a href="#section-3" onclick="menu_close()" class="section-1-list-item-link">Текст и картинки</a>
+                        </li>
+                        <li class="section-1-list-item">
+                            <a href="#section-4" onclick="menu_close()" class="section-1-list-item-link">Пример слайдера</a>
+                        </li>
+                        <li class="section-1-list-item">
+                            <a href="#section-5" onclick="menu_close()" class="section-1-list-item-link">Кнопки и картинки</a>
+                        </li>
+                        <li class="section-1-list-item">
+                            <a href="#section-6" onclick="menu_close()" class="section-1-list-item-link">Вопрос — ответ</a>
+                        </li>
+                        <li class="section-1-list-item">
+                            <input type="button" value="К форме" class="section-1-list-item-button" onclick="ScrollToForm(1)">
+                        </li>
+                    </ul>
+                    <div class="social-block">
+                        <a href="#" class="social-block-link"><img src="image/svg/vk.svg" alt=""></a>
+                        <a href="#" class="social-block-link"><img src="image/svg/tg.svg" alt=""></a>
+                    </div>
+                </nav>
+                <div class="section-1-burger" onclick="menu()">
+                    <span class="section-1-burger-line section-1-burger-line-1"></span>
+                    <span class="section-1-burger-line section-1-burger-line-2"></span>
+                    <span class="section-1-burger-line section-1-burger-line-3"></span>        
+                </div>
+            </header>
+        </section>
+
+        <section class="fixed-width-section block-section-2" id="section-2">
+            <div class="section-2">
+                <div class="section-2-col">
+                    <div class="section-2-col-1">
+                        <div class="section-2-col-1-text">
+                            <h1>Мои <span style="color:#11A6A6">Front-end</span> навыки</h1>
+                            <p>на этой странице я сверстал самые популярные веб шаблоны которые используются на лендингах.</p>
+                        </div>
+                        <div class="section-2-col section-2-img-pack-2">
+                            <img class="section-2-col-img section-2-col-img-1" src="image/section-2/image_3.png" alt="">
+                            <img class="section-2-col-img section-2-col-img-2" src="image/section-2/image_1.png" alt="">
+                            <img class="section-2-col-img section-2-col-img-3" src="image/section-2/image_2.png" alt="">
+                        </div>
+                        <div class="section-2-col-1-to-form">
+                            <h4> показываю скролл <span style="color: #14CCCC; margin-right: 1.46vw;">до формы:</span><input type="button" value="К форме" onclick="ScrollToForm()"></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-2-col section-2-img-pack-1">
+                    <img class="section-2-col-img section-2-col-img-1" src="image/section-2/image_3.png" alt="">
+                    <img class="section-2-col-img section-2-col-img-2" src="image/section-2/image_1.png" alt="">
+                    <img class="section-2-col-img section-2-col-img-3" src="image/section-2/image_2.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="fixed-width-section block-section-3" id="section-3">
+            <div class="section-3">
+                <div class="section-3-col">
+                    <div class="section-3-col-1">
+                        <div class="section-3-col-1-text">
+                            <h2>Думаю так выглядит работа в команде</h2>
+                            <p>Коллеги обсуждают новый проект, раскидывают задачи, обсуждают план и прочее.<br><br>о чем они могут говорить:</p>
+                        </div>
+                        <div class="section-3-col-1-blocks-text">
+                            <div class="section-3-col-1-block-item">
+                                <h1>Оценивают</h1>
+                                <p>Обсуждают цену для заказчика.</p>
+                            </div>
+                            <div class="section-3-col-1-block-item">
+                                <h1>Технологии</h1>
+                                <p>Которые будут применены на проекте.</p>
+                            </div>
+                            <div class="section-3-col-1-block-item">
+                                <h1>Распределение</h1>
+                                <p>Поставленных задач на основе ТЗ.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3-col section-3-col-2">
+                    <img class="section-3-col-img section-3-col-img-1" src="image/section-3/team_1.png" alt="">
+                    <img class="section-3-col-img section-3-col-img-2" src="image/section-3/team_2.png" alt="">
+                    <img class="section-3-col-img section-3-col-img-3" src="image/section-3/team_3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="fixed-width-section block-section-4" id="section-4">
+            <div class="section-4-head-button">
+                <div class="section-4-head">
+                    <h2>Тут будет слайдер.</h2>
+                </div>
+                <div class="section-4-button">
+                    <div class="section-4-button-1" onclick="sliderleft()">
+                        <span class="section-4-button-items section-4-button-1-1"></span>
+                        <span class="section-4-button-items section-4-button-1-2"></span>
+                    </div>
+                    <div class="section-4-button-2" onclick="sliderigth()">
+                        <span class="section-4-button-items section-4-button-2-1"></span>
+                        <span class="section-4-button-items section-4-button-2-2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-4-slider">
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-1"><span>Северная корона</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-2"><span>Moscow barbering school</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-3"><span>Rh store</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-4"><span>Poolspecial</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-5"><span>стекла.рф</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-6"><span>SIC</span></div>
+                </div>
+                <div class="section-4-slider-item">
+                    <div class="section-4-slider-slide section-4-slider-slide-7"><span>Bikos</span></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="fixed-width-section block-section-5" id="section-5">
+            <div class="section-5">
+                <div class="section-5-col section-5-col-1">
+                    <img class="section-5-col-img section-5-col-img-3" src="image/section-5/forest_3.png" alt="">
+                    <img class="section-5-col-img section-5-col-img-2" src="image/section-5/forest_2.png" alt="">
+                    <img class="section-5-col-img section-5-col-img-1" src="image/section-5/forest_1.png" alt="">
+                </div>
+                <div class="section-5-col section-5-col-2">
+                    <div class="section-5-col-2-block">
+                        <div class="section-5-lable section-5-lable-1 section-5-lable-active" onclick="check(1)">
+                            <input class="section-5-radio" type="radio" name="img" value="1" id="radio-Button-1" checked>
+                            <img src="image/section-5/forest_1.png">
+                            <label for="radio-Button-1">Картинка 1</label>
+                        </div>
+
+                        <div class="section-5-lable section-5-lable-2" onclick="check(2)">
+                            <input class="section-5-radio" type="radio" name="img" value="2" id="radio-Button-2">
+                            <img src="image/section-5/forest_2.png">
+                            <label for="radio-Button-2">Картинка 2</label>
+                        </div>
+                        
+                        <div class="section-5-lable section-5-lable-3" onclick="check(3)">
+                            <input class="section-5-radio" type="radio" name="img" value="3" id="radio-Button-2">
+                            <img src="image/section-5/forest_3.png">
+                            <label for="radio-Button-3" >Картинка 3</label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="fixed-width-section block-section-6" id="section-6">
+            <div class="section-6-faq">
+                <div class="section-6-h section-6-1">
+                    <div class="section-6-faq-q section-6-faq-q-1" onclick="showfaq(1)">
+                        <span class="section-6-text">У вас много проектов?</span>
+                        <span class="section-6-button">
+                            <span class="section-6-item-button section-6-item-1-button section-6-item-1-button-1"></span>
+                            <span class="section-6-item-button section-6-item-2-button section-6-item-2-button-1"></span>
+                        </span>   
+                    </div>
+                    <div class="section-6-faq-q-hiden section-6-faq-q-hiden-1">
+                        <span>Достаточно , чтобы работать и получать удовольствие от работы)</span>
+                    </div>
+                </div>
+                
+                <div class="section-6-h section-6-2">
+                    <div class="section-6-faq-q section-6-faq-q-2" onclick="showfaq(2)">
+                        <span class="section-6-text">Есть ли карьерный рост?</span>
+                        <span class="section-6-button">
+                            <span class="section-6-item-button section-6-item-1-button section-6-item-1-button-2"></span>
+                            <span class="section-6-item-button section-6-item-2-button section-6-item-2-button-2"></span>
+                        </span>   
+                    </div>
+                    <div class="section-6-faq-q-hiden section-6-faq-q-hiden-2">
+                        <span>Карьерный рост есть, но он зависит только от тебя. Никто специально тянуть не будет.</span>
+                    </div>
+                </div>
+                
+
+                <div class="section-6-h section-6-3">
+                    <div class="section-6-faq-q section-6-faq-q-3" onclick="showfaq(3)">
+                        <span class="section-6-text">У вас большой штат?</span>
+                        <span class="section-6-button">
+                            <span class="section-6-item-button section-6-item-1-button section-6-item-1-button-3"></span>
+                            <span class="section-6-item-button section-6-item-2-button section-6-item-2-button-3"></span>
+                        </span>   
+                    </div>
+                    <div class="section-6-faq-q-hiden section-6-faq-q-hiden-3">
+                        <span>Штат небольшой</span>
+                    </div>
+                </div>
+                
+
+                <div class="section-6-h section-6-4">
+                    <div class="section-6-faq-q section-6-faq-q-4" onclick="showfaq(4)">
+                        <span class="section-6-text">Какие цели у вашей студии?</span>
+                        <span class="section-6-button">
+                            <span class="section-6-item-button section-6-item-1-button section-6-item-1-button-4"></span>
+                            <span class="section-6-item-button section-6-item-2-button section-6-item-2-button-4"></span>
+                        </span>   
+                    </div>
+                    <div class="section-6-faq-q-hiden section-6-faq-q-hiden-4">
+                        <span>Развивать свои продукты в среднем ценовом сегменте. Занять не занятую нишу отличных сайтов по адекватной цене.</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="fixed-width-section block-section-7" id="section-7">
+            <div class="section-7">
+                <div class="section-7-col section-7-col-1">
+                    <h2>Форма ОС</h2>
+                    <p>Сверстал форму обратной связи. Можете ее заполнить и заявка придет на мою почту: syomtys@gmail.com</p>
+                    <div class="section-7-social-block">
+                        <span class="section-7-social-block-span">И шаблон соц.сети</span>
+                        <div class="social-block-bottom">
+                            <a href="#" class="social-block-bottom-link"><img src="image/svg/vk.svg" alt=""></a>
+                            <a href="#" class="social-block-bottom-link"><img src="image/svg/tg.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-7-col section-7-col-2">
+                    <form id="myform" action="send.php" method="POST">
+                        <input class="form-field form-col-1" name="question" type="text" placeholder="Напиши вопрос*" required/>
+                        <input class="form-field" name="tel-email" type="text" placeholder="Teлефон или почта*" required/>
+                        <input class="form-field form-col-1" name="name" type="text" placeholder="Твоё имя*" required/>
+                        <input class="form-field" name="social" type="url" placeholder="Соц.сеть или мессенджер"/>
+                        <!-- <input class="form-buttom form-col-1" name="button_send" type="button" value="Отправить заявку"/> -->
+                        <button  class="form-buttom form-col-1 form-buttom-1">Отправить заявку</button>
+                        <input class="form-checkbox" id="policy" name="policy" type="checkbox" required/>
+                        <label class="form-label" for="policy">Согласие с политикой</label>
+                        <button  class="form-buttom form-col-1 form-buttom-2">Отправить заявку</button>
+                    </form>
+                </div>
+                <div class="section-7-social-block-min">
+                    <span class="section-7-social-block-span">Не забудь вставить соц.сети</span>
+                    <div class="social-block-bottom">
+                        <a href="#" class="social-block-bottom-link"><img src="image/svg/vk.svg" alt=""></a>
+                        <a href="#" class="social-block-bottom-link"><img src="image/svg/tg.svg" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </section>
+    <script>
+        function scrollup() {
+            window.scrollTo({
+                top: -10000,
+                behavior: "smooth"
+            });
+        }
+        function ScrollToForm(menu) {
+            if(menu == 1){
+                menu_close()
+            }
+            window.scrollTo({
+                top: 10000,
+                behavior: "smooth"
+            });
+        }
+        // открытие меню бокового меню
+        function menu () {
+            const menu_list = document.querySelector('.section-1-nav');
+            menu_list.classList.add('section-1-nav-active');
+        };
+        // закрытие бокового меню
+        function menu_close () {
+            const menu_list_close = document.querySelector('.section-1-nav');
+            menu_list_close.classList.remove('section-1-nav-active');
+        }
+        //листает слайд влево
+        function sliderleft(){
+            const left = document.querySelector('.section-4-slider');
+            left.scrollBy({left:-320,behavior: "smooth"});
+        }
+        //листает слайд вправо
+        function sliderigth(){
+            const rigth = document.querySelector('.section-4-slider');
+            rigth.scrollBy({left:320,behavior: "smooth"});
+        }
+        //галерея с картинками. оправляем номер картинки и выбираем нужную. обнуляя остальные
+        function check(val_u){
+            document.querySelector('.section-5-col-img-1').style.display = 'none';
+            document.querySelector('.section-5-lable-1').classList.remove('section-5-lable-active');
+            document.querySelector('.section-5-col-img-2').style.display = 'none';
+            document.querySelector('.section-5-lable-2').classList.remove('section-5-lable-active');
+            document.querySelector('.section-5-col-img-3').style.display = 'none';
+            document.querySelector('.section-5-lable-3').classList.remove('section-5-lable-active');
+            if (val_u == 1){
+                document.querySelector('.section-5-col-img-1').style.display = 'block';
+                document.querySelector('.section-5-lable-1').classList.add('section-5-lable-active');
+            }
+            if (val_u == 2){
+                document.querySelector('.section-5-col-img-2').style.display = 'block';
+                document.querySelector('.section-5-lable-2').classList.add('section-5-lable-active');
+            }
+            if (val_u == 3){
+                document.querySelector('.section-5-col-img-3').style.display = 'block';
+                document.querySelector('.section-5-lable-3').classList.add('section-5-lable-active');
+            }
+
+        }
+        function showfaq(numfaq){
+            if (numfaq == 1) {
+                if (document.querySelector('.section-6-faq-q-hiden-1').classList.contains('section-6-faq-q-hiden-active')) {
+                    document.querySelector('.section-6-faq-q-hiden-1').classList.remove('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-1').style.color = "#FFFFFF";
+                    document.querySelector('.section-6-item-1-button-1').style.transform = "rotate(0deg)";
+                    document.querySelector('.section-6-item-2-button-1').style.transform = "rotate(-90deg)";
+                    document.querySelector('.section-6-1').classList.remove('section-6-active');
+                }
+                else{
+                    document.querySelector('.section-6-faq-q-hiden-1').classList.add('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-1').style.color = "#3D4040";
+                    document.querySelector('.section-6-item-1-button-1').style.transform = "rotate(45deg)";
+                    document.querySelector('.section-6-item-2-button-1').style.transform = "rotate(-45deg)";
+                    document.querySelector('.section-6-1').classList.add('section-6-active');
+                }
+            }
+            if (numfaq == 2) {
+                if (document.querySelector('.section-6-faq-q-hiden-2').classList.contains('section-6-faq-q-hiden-active')) {
+                    document.querySelector('.section-6-faq-q-hiden-2').classList.remove('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-2').style.height = "72px";
+                    document.querySelector('.section-6-faq-q-hiden-2').style.color = "#FFFFFF";
+                    document.querySelector('.section-6-item-1-button-2').style.transform = "rotate(0deg)";
+                    document.querySelector('.section-6-item-2-button-2').style.transform = "rotate(-90deg)";
+                    document.querySelector('.section-6-2').classList.remove('section-6-active-big-2');
+                }
+                else{
+                    document.querySelector('.section-6-faq-q-hiden-2').classList.add('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-2').style.height = "90px";
+                    document.querySelector('.section-6-faq-q-hiden-2').style.color = "#3D4040";
+                    document.querySelector('.section-6-item-1-button-2').style.transform = "rotate(45deg)";
+                    document.querySelector('.section-6-item-2-button-2').style.transform = "rotate(-45deg)";
+                    document.querySelector('.section-6-2').classList.add('section-6-active-big-2');
+                }
+            }
+            if (numfaq == 3) {
+                if (document.querySelector('.section-6-faq-q-hiden-3').classList.contains('section-6-faq-q-hiden-active')) {
+                    document.querySelector('.section-6-faq-q-hiden-3').classList.remove('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-3').style.color = "#FFFFFF";
+                    document.querySelector('.section-6-item-1-button-3').style.transform = "rotate(0deg)";
+                    document.querySelector('.section-6-item-2-button-3').style.transform = "rotate(-90deg)";
+                    document.querySelector('.section-6-3').classList.remove('section-6-active');
+                }
+                else{
+                    document.querySelector('.section-6-faq-q-hiden-3').classList.add('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-3').style.color = "#3D4040";
+                    document.querySelector('.section-6-item-1-button-3').style.transform = "rotate(45deg)";
+                    document.querySelector('.section-6-item-2-button-3').style.transform = "rotate(-45deg)";
+                    document.querySelector('.section-6-3').classList.add('section-6-active');
+                }
+            }
+            if (numfaq == 4) {
+                if (document.querySelector('.section-6-faq-q-hiden-4').classList.contains('section-6-faq-q-hiden-active')) {
+                    document.querySelector('.section-6-faq-q-hiden-4').classList.remove('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-4').style.height = "72px";
+                    document.querySelector('.section-6-faq-q-hiden-4').style.color = "#FFFFFF";
+                    document.querySelector('.section-6-item-1-button-4').style.transform = "rotate(0deg)";
+                    document.querySelector('.section-6-item-2-button-4').style.transform = "rotate(-90deg)";
+                    document.querySelector('.section-6-4').classList.remove('section-6-active-big');
+                }
+                else{
+                    document.querySelector('.section-6-faq-q-hiden-4').classList.add('section-6-faq-q-hiden-active');
+                    document.querySelector('.section-6-faq-q-hiden-4').style.height = "118px";
+                    document.querySelector('.section-6-faq-q-hiden-4').style.color = "#3D4040";
+                    document.querySelector('.section-6-item-1-button-4').style.transform = "rotate(45deg)";
+                    document.querySelector('.section-6-item-2-button-4').style.transform = "rotate(-45deg)";
+                    document.querySelector('.section-6-4').classList.add('section-6-active-big');
+                }
+            }
+        }
+    </script>
+</body>
+</html>

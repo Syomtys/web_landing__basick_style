@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Gogh';
+    font-style: 'normal';
+    font-weight: 800;
+    src: url(../fonts/Gogh-ExtraBold.woff2) format('woff2');
+    src: url(../fonts/Gogh-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-style: 'normal';
+    font-weight: 700;
+    line-height: 150%;
+    src: url(../fonts/Raleway-Bold.woff2) format('woff2');
+    src: url(../fonts/Raleway-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    font-style: 'normal';
+    font-weight: 400;
+    line-height: 150%;
+    src: url(../fonts/Raleway-Regular.woff2) format('woff2');
+    src: url(../fonts/Raleway-Regular.woff) format('woff');
+}
